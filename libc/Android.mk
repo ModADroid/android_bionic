@@ -188,7 +188,6 @@ libc_common_src_files := \
 	string/strchr.c \
 	string/strcmp.c \
 	string/strcoll.c \
-	string/strcpy.c \
 	string/strcspn.c \
 	string/strdup.c \
 	string/strerror.c \
@@ -311,6 +310,7 @@ libc_common_src_files += \
 	arch-arm/bionic/setjmp.S \
 	arch-arm/bionic/sigsetjmp.S \
 	arch-arm/bionic/strlen.c.arm \
+	arch-arm/bionic/strcpy.S \
 	arch-arm/bionic/syscall.S \
 	string/memmove.c.arm \
 	unistd/socketcalls.c
@@ -350,6 +350,7 @@ libc_common_src_files += \
 	arch-x86/string/memcpy.S \
 	arch-x86/string/strlen.S \
 	string/memmove.c \
+	string/strcpy.c \
 	bionic/pthread.c \
 	bionic/pthread-timers.c \
 	bionic/ptrace.c
@@ -384,6 +385,7 @@ libc_common_src_files += \
 	string/memcmp.c \
 	string/strlen.c \
 	bionic/eabi.c \
+	string/strcpy.c \
 	bionic/pthread.c \
 	bionic/pthread-timers.c \
 	bionic/ptrace.c \
