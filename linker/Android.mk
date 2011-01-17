@@ -34,7 +34,7 @@ LOCAL_CFLAGS += -DLINKER_AREA_SIZE=$(LINKER_AREA_SIZE)
 
 # Set LINKER_DEBUG to either 1 or 0
 #
-LOCAL_CFLAGS += -DLINKER_DEBUG=0
+LOCAL_CFLAGS += -DLINKER_DEBUG=1
 
 # we need to access the Bionic private header <bionic_tls.h>
 # in the linker; duplicate the HAVE_ARM_TLS_REGISTER definition
